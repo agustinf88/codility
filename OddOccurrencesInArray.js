@@ -1,19 +1,27 @@
 const solution = A => {
-  let value = A[0];
-  let current = 0;
-  breack = false;
-
-  while (!breack) {
-    let i = A.slice(current + 1).indexOf(value);
-    console.log(`Value: ${value} - current: ${current} - Index: ${i + current}`);
-    if (i === -1) {
-      breack = true;
-    }
-    current++;
-    value = A[current];
+  const l = A.length;
+  console.log(l);
+  if (l === 1) {
+    return A[0];
   }
+
+  A.sort((a, b) => a - b);
+  for (var i = 0; i < l - 1; i += 2) {
+    if (A[i] !== A[i + 1]) {
+      return A[i];
+      break;
+    }
+  }
+  if (l % 2 === 0) {
+    return;
+  }
+  return A[l - 1];
 };
 
-const list = [9, 3, 9, 3, 9, 7, 9];
+// const list = [9, 3, 9, 3, 9, 7, 9];
+const list = [9, 9, 9, 9, 9, 9, 9];
+
 console.log("Array: ", list);
 console.log("Resultado: ", solution(list));
+console.log(list.sort((a, b) => b - a));
+console.log(list);
