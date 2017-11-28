@@ -1,0 +1,11 @@
+{
+  "name": "codility",
+  "version": "1.0.0",
+  "description": "Preparación de examen para Medallia",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Agustin Fiorenza",
+  "license": "ISC"
+}
