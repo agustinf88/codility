@@ -10,5 +10,5 @@ function solution(A) {
   return next;
 }
 
-const list = [2, 3,4 , 1, 5];
+const list = [2, 3, 4 , 1, 5];
 console.log("Solution: ", solution(list));
