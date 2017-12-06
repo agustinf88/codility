@@ -18,7 +18,7 @@ function solution(X, A) {
 
 module.exports = (time, list) =>
   console.log(
-    `** FrogRiverOne **  K:${time} - List:${list} - SOLUTION: ${solution(
+    `** FrogRiverOne    ** - K:${time} - List:${list} - SOLUTION: ${solution(
       time,
       list
     )}`

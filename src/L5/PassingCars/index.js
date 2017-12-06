@@ -18,5 +18,5 @@ function solution(A) {
 
 module.exports = list =>
   console.log(
-    `** PassingCars ** - list: ${list} - solution: ${solution(list)}`
+    `** PassingCars     ** - list: ${list} - solution: ${solution(list)}`
   );

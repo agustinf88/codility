@@ -18,5 +18,5 @@ const solution = (N, A) => {
 
 module.exports = (number, list) =>
   console.log(
-    `** MaxCounter ** - List: ${list} - solution: ${solution(number, list)}`
+    `** MaxCounter      ** - List: ${list} - solution: ${solution(number, list)}`
   );

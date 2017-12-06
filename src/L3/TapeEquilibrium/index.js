@@ -35,5 +35,5 @@ function solution(A) {
 // console.log("Solution: ", solution(list));
 module.exports = list =>
   console.log(
-    `** TapEquilimbrium ** list: ${list}  solution:${solution(list)}`
+    `** TapEquilimbrium ** - list: ${list}  solution:${solution(list)}`
   );

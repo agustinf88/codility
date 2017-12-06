@@ -16,5 +16,5 @@ function solution(A) {
 
 module.exports = list =>
   console.log(
-    `** MissingInteger ** - List: ${list} - solution: ${solution(list)}`
+    `** MissingInteger  ** - List: ${list} - solution: ${solution(list)}`
   );

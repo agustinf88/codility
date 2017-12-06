@@ -13,5 +13,5 @@ const list = [1, 2, 3];
 // console.log("Array: ", list);
 module.exports = (A, B, C) =>
   console.log(
-    `CountDiv - Input: ${A}-${B}-${C} - Resultado: ${solution(A, B, C)}`
+    `** CountDiv        ** - Input: ${A}-${B}-${C} - Resultado: ${solution(A, B, C)}`
   );
