@@ -10,3 +10,4 @@ require("./L5/CountDiv")(0, 1, 2);
 require("./L5/PassingCars")([0, 1, 0, 1, 1]);
 require("./L5/PassingCars")([0,0,0,0,0,1]);
 require("./L5/PassingCars")([1]);
+require("./L5/GenomicRangeQuery")("CAGCCTA", [2,5,0], [4,5,6])
