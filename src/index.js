@@ -8,6 +8,6 @@ require("./L4/MaxCounters")(5, [1, 2, 2, 2, 6, 2]);
 require("./L4/MaxCounters")(5, [3, 4, 4, 6, 1, 4, 4]);
 require("./L5/CountDiv")(0, 1, 2);
 require("./L5/PassingCars")([0, 1, 0, 1, 1]);
-require("./L5/PassingCars")([0,0,0,0,0,1]);
+require("./L5/PassingCars")([0, 0, 0, 0, 0, 1]);
 require("./L5/PassingCars")([1]);
-require("./L5/GenomicRangeQuery")("CAGCCTA", [2,5,0], [4,5,6])
+require("./L5/GenomicRangeQuery")("CAGCCTA", [2, 5, 0], [4, 5, 6]);
