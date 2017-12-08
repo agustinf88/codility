@@ -13,3 +13,5 @@ require("./L5/PassingCars")([1]);
 require("./L5/GenomicRangeQuery")("CAGCCTA", [2, 5, 0], [4, 5, 6]);
 require("./L5/MinAvgTwoSlice")([4, 2, 2, 5, 1, 5, 8]);
 require("./L5/MinAvgTwoSlice")([-3, -5, -8, -4, -10]);
+require("./L6/Triangle")([10, 2, 5, 1, 8, 20]);
+require("./L6/Triangle")([10, 50, 5, 1]);
