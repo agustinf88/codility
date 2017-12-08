@@ -2,7 +2,6 @@ function solution(A) {
   let counter = {};
 
   for (var i = 0; i < A.length; i++) {
-    console.log("Counter: ", counter);
     if (!counter[A[i]]) {
       counter = Object.assign(counter, { [A[i]]: true });
     }

@@ -16,3 +16,4 @@ require("./L5/MinAvgTwoSlice")([-3, -5, -8, -4, -10]);
 require("./L6/Triangle")([10, 2, 5, 1, 8, 20]);
 require("./L6/Triangle")([10, 50, 5, 1]);
 require("./L6/Distinct")([2,1,1,2,3,1]);
+require("./L6/MaxProductOfTree")([-3, 1, 2, -2, 5, 6,]);
