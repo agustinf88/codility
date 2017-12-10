@@ -17,3 +17,5 @@ require("./L6/Triangle")([10, 2, 5, 1, 8, 20]);
 require("./L6/Triangle")([10, 50, 5, 1]);
 require("./L6/Distinct")([2,1,1,2,3,1]);
 require("./L6/MaxProductOfTree")([-3, 1, 2, -2, 5, 6,]);
+require("./L6/NumberOfDiscIntersections")([1, 5, 2, 1, 4, 0,]);
+require("./L7/Brackets")("");
