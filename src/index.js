@@ -21,3 +21,4 @@ require("./L6/NumberOfDiscIntersections")([1, 5, 2, 1, 4, 0]);
 require("./L7/Brackets")("");
 require("./L7/Fish")([4, 3, 2, 1, 5], [0, 1, 0, 0, 0]);
 require("./L7/Fish")([4, 3, 2, 1, 5], [0, 1, 0, 1, 0]);
+require("./L7/Nesting")("(()(())())");
