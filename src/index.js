@@ -22,3 +22,5 @@ require("./L7/Brackets")("");
 require("./L7/Fish")([4, 3, 2, 1, 5], [0, 1, 0, 0, 0]);
 require("./L7/Fish")([4, 3, 2, 1, 5], [0, 1, 0, 1, 0]);
 require("./L7/Nesting")("(()(())())");
+require("./L7/StoneWall")([8, 8, 5, 7, 9, 8, 7, 4, 8]);
+require("./L8/Dominator")([3, 4, 3, 2, 3, -1, 3, 3]);
