@@ -3,11 +3,9 @@ function solution(A) {
   A.sort((a, b) => a - b);
   let index = ~~(A.length / 2);
   let candidate = A[index];
-  console.log(candidate);
   let count = 0;
   for (var i = 0; i < oldList.length; i++) {
     if (oldList[i] === candidate) {
-      console.log(i);
       count++;
       if (count > A.length / 2) {
         return i;
